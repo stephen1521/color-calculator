@@ -1,5 +1,5 @@
 const prompt = require('prompt-sync')({sigint: true});
-let color = prompt('Enter colors ');
+let color = prompt('Enter colors: ');
 color = color.toLowerCase();
 if(color.includes(' ')) {
     if(color === 'red blue'){
